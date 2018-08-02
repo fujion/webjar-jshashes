@@ -1,2 +1,3 @@
-# fujion-jshashes
-Web jar for https://github.com/h2non/jshashes.
+# webjar-jshashes
+Web jar for jshashes.
+https://github.com/h2non/jshashes
