@@ -1,5 +1,5 @@
 {
-  "imports": {
-    "jshashes": "hashes.js"
+  "paths": {
+    "jshashes": "dist/hashes.js"
   }
 }

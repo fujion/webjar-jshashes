@@ -43,7 +43,10 @@
 						<configuration>
 							<target>
 								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/jshashes" includes="hashes.*,LICENSE,README.md" />
+									<fileset dir="${src.rootdir}/node_modules/jshashes" includes="LICENSE,README.md" />
+								</copy>
+								<copy todir="${webjar.target}/dist">
+									<fileset dir="${src.rootdir}/node_modules/jshashes" includes="hashes.*" />
 								</copy>
 							</target>
 						</configuration>
